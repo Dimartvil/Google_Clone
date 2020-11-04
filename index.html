@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,13 +25,19 @@
         <picture class="logo-container">
             <img src="./img/googlelogo_color_272x92dp.png" alt="Logo Google" class="logo">
         </picture>
-        <form action="">
+        <form action="" class="search">
             <label for="">
-                <input type="text" placeholder="search-icon">
-                <input type="submit" placeholder="microphone">
+                <div class="search-input">
+                    <span class="material-icons search">search</span>
+                    <input  type="text">
+                    <span class="material-icons mic"><a href="">mic</a></span>
+                </div>
+                <div class="search-buttons">
+                    <input type="submit" value="Buscar con Google">
+                    <input type="submit" value="Me siento con suerte">
+                </div>
+
             </label>
-                <input type="submit" value="Buscar con Google">
-                <input type="submit" value="Me siento con suerte">
         </form>
         <p>Ofrecido por Google en: <a href="">English</a> <a href="">Español (Latinoamérica)</a></p>
 
